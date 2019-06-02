@@ -4,7 +4,9 @@ $(document).ready(function () {
 
     function test(){}
     function taoBranchNguyenTheMan(){}
-    function timkiem(){}
+    function timkiem(){
+        console.log(fasfdsfa)
+    }
     function layDanhSachNguoiDung() {
         danhSachNguoiDung.LayDanhSachNguoiDung()
             .done(function (data) {   // Thanh cong
@@ -15,7 +17,7 @@ $(document).ready(function () {
             });
         ;
     }
-    $("#btnThemNguoiDung").click(function () {
+    $("#btnThemNguoiDung").click(function(){
         showPopUp("Thêm Người Dùng", "Thêm", "btnThem")
         $("#TaiKhoan").removeAttr("disabled")
     })
