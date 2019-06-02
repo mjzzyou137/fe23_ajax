@@ -4,6 +4,7 @@ $(document).ready(function () {
 
     function test(){}
     function taoBranchNguyenTheMan(){}
+    function timkiem(){}
     function layDanhSachNguoiDung() {
         danhSachNguoiDung.LayDanhSachNguoiDung()
             .done(function (data) {   // Thanh cong
