@@ -3,6 +3,7 @@ $(document).ready(function () {
     layDanhSachNguoiDung();
 
     function test(){}
+    function taoBranchNguyenTheMan(){}
     function layDanhSachNguoiDung() {
         danhSachNguoiDung.LayDanhSachNguoiDung()
             .done(function (data) {   // Thanh cong
